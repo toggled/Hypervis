@@ -1,6 +1,20 @@
 Hypervis
 ==========
-A Hypergraph visualisation tool written in Processing language. It supports subset-based, edge-based and Zykov drawing of hyperedges.
+A Hypergraph visualisation tool written in Processing language. 
+
+Features:
+---------
+ - Subset-, edge- and Zykov standard drawing of hyperedges.
+ - Export visualisation in svg and pdf format.
+ - Circular and Square drawing canvas.
+ - Shapes of the vertices 
+ - Fruchterman-Reingold, Eades and Force-atlas drawing of graphs.
+
+ 
+Planned Features:
+----------------
+- User interaction.
+ 
 
 How to use
 ==========
