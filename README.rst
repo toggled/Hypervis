@@ -12,8 +12,8 @@ Features:
 
  
 Planned Features:
-----------------
-- User interaction.
+-----------------
+- Allowing more user interaction.
  
 
 How to use
