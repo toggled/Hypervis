@@ -14,8 +14,6 @@ PeasyCam cam;
 
 HyperGraph hg;
 HyperGraph inputhg; 
-RandomASC randomasc;
-RandomHypergraph randomhg;
 ReadHyperGraph hgreader;
 int i=0,j=1;
 boolean drawhull = false;
@@ -338,60 +336,14 @@ void keyPressed(){
      
      REPR = 2;
      graph_config();
-      //if(compgraph.isSelected())
-      //  completegraph_config();
-      //else if(spgraph.isSelected())
-      //  spokegraph_config();
-      //else if(wheelgraph.isSelected())
-      //  wheelgraph_config();
-      //else if(circgraph.isSelected())
-      //  circulargraph_config();
-    //println("hi"+hg.associated_graph.vertices.get(0).pos.x);
     drawhull = false;
     drawcontour = false;
     STATE = DRAW;
    }
    if(key == 'q' || key == 'Q'){
-     float mean = 0;
-     int N = 100;
-     float pp = 0.6;
-     int n = 5;
-     for(int i = 0; i<N; i++){
-        println("iteration ",i+1);
-        randomhg = new RandomHypergraph(n,pp);
-        randomhg.generate();
-        mean+= (float)randomhg.totaladdedhypedges / N;
-        println(" - - - - - - - - - - - - - - ");
-     }
-     println("got: ",mean);
-     println("expected: ", (Math.pow(2,n) - 1)*pp); 
     
    }
    if(key == 'm' || key == 'M'){
-     //testing the number of subset checks in RandomSimpComp
-     float mean_scheck_test = 0;
-     float mean_scheck_simple = 0;
-     float meanedges = 0;
-     int N = 100;
-     float pp = 0.8;
-     int n = 16;
-     float runtime_test = 0,runtime_simple = 0;  
-     
-     for(int i = 0; i<N; i++){
-        randomasc = new RandomASC(n,pp);
-        randomasc.generaterandomasc_test();
-        mean_scheck_test += ((float) randomasc.analytic_numofsubsetchecks_sorted / N);
-        runtime_test+= (float) randomasc.runtm_sorted/N;
-    }
-    for(int i = 0; i<N; i++){
-        randomasc = new RandomASC(n,pp);
-        randomasc.generaterandomasc();
-        mean_scheck_simple += ((float) randomasc.analytic_numofsubsetchecks_simple / N);
-        meanedges+= ((float) randomasc.totaladdedhypedges / N);
-        runtime_simple+= (float) randomasc.runtm_simple/N;
-    }
-    println("sorted: ",mean_scheck_test," simple: ",mean_scheck_simple, "  mean edges: ",meanedges);
-    println("Average runtime: ", "simple: ", runtime_simple, " Sorted: ",runtime_test); 
    }
 }
 
