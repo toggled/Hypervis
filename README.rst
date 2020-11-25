@@ -8,7 +8,7 @@ Features:
  - Export visualisation in svg and pdf format.
  - Circular and Square drawing canvas.
  - Adjusting the shapes of the vertices.
- - Fruchterman-Reingold, Eades and Force-atlas drawing of graphs.
+ - Fruchterman-Reingold and Eades's Spring layout.
 
  
 Planned Features:
