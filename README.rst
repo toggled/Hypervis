@@ -19,7 +19,7 @@ Planned Features:
 How to use
 ==========
 * ``Processing 3:`` install it at https://processing.org/
-* Open ``Hypervis.pde`` and run
+* Open ``Hypervis.pde`` in Processing application and run it.
 * ``Demo video:`` https://www.youtube.com/watch?v=16iXlXGsUf4
 
 
