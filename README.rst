@@ -20,7 +20,8 @@ How to use
 ==========
 * ``Processing 3:`` install it at https://processing.org/
 * Open ``Hypervis.pde`` in Processing application and run it.
-* ``Demo video:`` https://www.youtube.com/watch?v=16iXlXGsUf4
+* Hypervis assumes the hypergraph is stored in a text file, where each line corresponds to a hyperedge with its vertices separated by comma (,).
+* For further information (e.g. how to load a hypergraph and visualise it), please watch the ``demo:`` https://www.youtube.com/watch?v=16iXlXGsUf4
 
 
 Citing Hypervis
