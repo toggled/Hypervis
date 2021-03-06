@@ -1,6 +1,6 @@
 Hypervis
 ==========
-A Hypergraph visualisation tool written in Processing language. 
+A Hypergraph visualisation tool written in Processing language. Hypervis is meant to be used as a Graphical tool for visualing small to medium scale hypergraphs. 
 
 Features:
 ---------
@@ -14,6 +14,7 @@ Features:
 Planned Features:
 -----------------
 - Allowing more user interaction.
+- Open a new issue if you would like to see new features. 
 
 
 Third-party library dependencies
@@ -41,6 +42,13 @@ How to use
 * Open ``Hypervis.pde`` in Processing application and run it.
 * Hypervis assumes the hypergraph is stored in a text file, where each line corresponds to a hyperedge with its vertices separated by comma (,).
 * For further information (e.g. how to load a hypergraph and visualise it), please watch the ``demo:`` https://www.youtube.com/watch?v=16iXlXGsUf4
+
+Contributing
+============
+
+Contributions are much appreciated. 
+
+It would be great if you open an issue with what features are you planning to add, before you make a Pull requests. 
 
 
 Citing Hypervis
