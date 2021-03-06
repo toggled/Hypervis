@@ -8,17 +8,31 @@ Features:
  - Export visualisation in svg and pdf format.
  - Circular and Square drawing canvas.
  - Adjusting the shapes of the vertices.
- - Fruchterman-Reingold and Eades's Spring layout.
+ - Fruchterman-Reingold and Eades's Spring layout for drawing the associated graph.
 
  
 Planned Features:
 -----------------
 - Allowing more user interaction.
- 
+
+
+Third-party library dependencies
+============
+* Java
+ - la4j
+* Processing 
+ - G4P GUI Builder 
+ - PeasyCam
 
 How to use
 ==========
 * ``Processing 3:`` install it at https://processing.org/
+* Instal the dependencies:-
+  - Processing
+   -  From Menubar: Tools > Add Tool..
+   -  Navigate to libraries Tab, Search for G4P and PeasyCam, and install them.
+  - Java
+   - la4j.jar can be found in code/ directory. You do not need to install it, as Processing expects external java libraries to be in code/ directory. 
 * Open ``Hypervis.pde`` in Processing application and run it.
 * Hypervis assumes the hypergraph is stored in a text file, where each line corresponds to a hyperedge with its vertices separated by comma (,).
 * For further information (e.g. how to load a hypergraph and visualise it), please watch the ``demo:`` https://www.youtube.com/watch?v=16iXlXGsUf4
