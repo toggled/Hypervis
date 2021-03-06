@@ -27,10 +27,10 @@ Third-party library dependencies
 How to use
 ==========
 * ``Processing 3:`` install it at https://processing.org/
-* Install the dependencies:
+* Install the dependencies.
   - Processing
-   -  From Menubar: Tools > Add Tool..
-   -  Navigate to libraries Tab, Search for G4P and PeasyCam, and install them.
+    - From Menubar: Tools > Add Tool..
+    - Navigate to libraries Tab, Search for G4P and PeasyCam, and install them.
   - Java
    - la4j.jar can be found in code/ directory. You do not need to install it, as Processing expects external java libraries to be in code/ directory. 
 * Open ``Hypervis.pde`` in Processing application and run it.
