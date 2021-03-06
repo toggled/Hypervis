@@ -27,7 +27,7 @@ Third-party library dependencies
 How to use
 ==========
 * ``Processing 3:`` install it at https://processing.org/
-* Instal the dependencies:-
+* Install the dependencies:
   - Processing
    -  From Menubar: Tools > Add Tool..
    -  Navigate to libraries Tab, Search for G4P and PeasyCam, and install them.
